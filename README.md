@@ -78,12 +78,12 @@ This exercise demonstrates the Observer pattern by creating a system where a sto
 
 #### Files:
 
-**Broker.java**: Observable class managing the list of observers and notifying them.
-**StockAgency.java**: Observer class that receives notifications.
-**MarketStatus.java**: Represents the current market status.
-**Observable.java**: Interface for observable objects.
-**Observer.java**: Interface for observers.
-**Main.java**: Demonstrates creating observers, registering them, and updating market status.
+- **Broker.java**: Observable class managing the list of observers and notifying them.
+- **StockAgency.java**: Observer class that receives notifications.
+- **MarketStatus.java**: Represents the current market status.
+- **Observable.java**: Interface for observable objects.
+- **Observer.java**: Interface for observers.
+- **Main.java**: Demonstrates creating observers, registering them, and updating market status.
 
 ### Example usage:
 ```java
