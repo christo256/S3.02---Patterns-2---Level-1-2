@@ -8,6 +8,18 @@ public class Pizza {
     private String dough;
     private List<String> toppings = new ArrayList<>();
 
+    public String getSize() {
+        return size;
+    }
+
+    public String getDough() {
+        return dough;
+    }
+
+    public List<String> getToppings() {
+        return toppings;
+    }
+
     public void setSize(String size) {
         this.size = size;
     }
